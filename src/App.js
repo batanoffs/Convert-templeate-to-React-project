@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Download from './components/Download';
 import './css/App.css';
 import './css/animate.css';
+import { Footer } from './components/Footer';
 
 function App(){
     return (
@@ -24,6 +25,7 @@ function App(){
         <Faq/>
         <Contact/>
         <Download/>
+        <Footer/>
       </div>
     )
 }
