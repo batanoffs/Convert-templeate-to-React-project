@@ -8,7 +8,7 @@ const Video = () => {
                 <div className="video-popup">
                     <div className="video-src">
                     <div className="iframe-src">
-                        <iframe title="video" src="https://www.youtube.com/embed/Ku52zNnft8k?rel=0&amp;showinfo=0" allowFullScreen></iframe>
+                        <iframe title="video" src={`https://www.youtube.com/embed/Ku52zNnft8k?rel=0&amp;showinfo=0`} allowFullScreen></iframe>
                     </div>
                     </div>
                 </div>
